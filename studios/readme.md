@@ -1,5 +1,5 @@
 ## Studios
-#### Breaking + Making
+### Breaking + Making
 
 **Philosophy**
 
