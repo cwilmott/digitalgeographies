@@ -11,7 +11,24 @@ These are not complete studios. They are not designed to make you excellent code
 
 To get the most out of these labs, adopt a mindset of courage in sharing, patience in learning, and enjoyment of failure. They will go wrong: our code may never work, our maps might be mangled and our data might be nonsensical. We will all spend far too long debugging, updating, and chasing stray commas and lost drop-down menus. But this is probably closer to the culture of technology than seamless automated systems and prodigal hackers - and so forms a key part of our study, as a doing - breaking and making. 
 
-#### Finally, please watch the videos here:
+### Format
+
+These studios can be completed asynchronously on your own, or synchronously in class. 
+
+Each studio is supported by an instruction manual (in .md her) and an instructional video (here: tba)
+
+### What do you need?
+
+To complete these labs, you will need the following hardware:
+
+- Laptop or Desktop Computer
+- Internet Access
+- Smartphone
+- SENSE OF HUMOUR + LOTS OF PATIENCE!
+
+If you don't have access to any of the above, please email me at clancy.wilmott[at]berkeley.edu
+
+
 
 
 
