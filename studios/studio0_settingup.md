@@ -9,7 +9,7 @@ For these labs, we will largely be using GitHub as a place to hold our code and 
 
 To join GitHub go to: https://github.com and select "Sign Up". Fill in your details and sign up. 
 
-(https://gblobscdn.gitbook.com/assets%2F-M9O5Xh6H5-Kcfi8ek2i%2F-MAML6A6APoKrK7yMGPB%2F-MAQcSNyaU8IDTALs_C7%2FScreen%20Shot%202020-06-22%20at%2011.44.30.png?alt=media&token=e0dfb231-78c7-4bd4-8cf4-e4d06cfc961f)
+!(https://gblobscdn.gitbook.com/assets%2F-M9O5Xh6H5-Kcfi8ek2i%2F-MAML6A6APoKrK7yMGPB%2F-MAQcSNyaU8IDTALs_C7%2FScreen%20Shot%202020-06-22%20at%2011.44.30.png?alt=media&token=e0dfb231-78c7-4bd4-8cf4-e4d06cfc961f)
 
 
 To complete the process, verify your email address.
