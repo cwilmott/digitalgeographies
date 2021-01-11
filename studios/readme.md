@@ -17,6 +17,25 @@ These studios can be completed asynchronously on your own, or synchronously in c
 
 Each studio is supported by an instruction manual (in .md her) and an instructional video (here: tba)
 
+### Schedule
+
+| 21 Jan | Week 0       | Studio: Setting Up (CAGE Lab or Software) |   |   |
+|--------|--------------|-------------------------------------------|---|---|
+| 28 Jan | Week 1       | Studio: Dev Tools; GitHub                 |   |   |
+| 4 Feb  | Week 2       | Studio: archive.org                       |   |   |
+| 11 Feb | Week 3       | Studio: HTML/CSS/JavaScript               |   |   |
+| 18 Feb | Week 4       | Studio: CSV/GeoJSON                       |   |   |
+| 25 Feb | Week 5       | Studio: Algorithms                        |   |   |
+| 4 Mar  | Week 6       | Studio: Interoperability                  |   |   |
+| 11 Mar | Week 7       | Studio: Location                          |   |   |
+| 18 Mar | Week 8       | Studio: Creative Commons                  |   |   |
+| 25 Mar | Spring Break |                                           |   |   |
+| 1 Apr  | Week 9       | Studio: Torrenting                        |   |   |
+| 8 Apr  | Week 10      | Studio: Infrared + LiDAR                  |   |   |
+| 15 Apr | Week 11      | Studio: Images                            |   |   |
+| 22 Apr | Week 12      | Studio: CAD                               |   |   |
+| 29 Ap  | Week 13      | Studio: Virtual Reality                   |   |   |
+
 ### What do you need?
 
 To complete these labs, you will need the following hardware:
