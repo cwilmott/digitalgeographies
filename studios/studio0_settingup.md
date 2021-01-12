@@ -8,8 +8,12 @@ List of things to do:
 - Download Atom code editor (all)
 - Install Command Line Tools (Git) (Studio 3-11)
 - Install Python (Studio 3-11)
-- Download and install Sketch-Up (Studio 12)
-- Download and install Unity (Studio 13)
+
+Week Specific Software that we will deal with each week (or check in to see how we're going):
+- BitTorrent (Week 9)
+- ImageJ (Week 11)
+- Sketch-Up (Studio 12)
+- Unity (Studio 13)
 
 ## Set Up GitHub
 
