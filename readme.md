@@ -2,8 +2,6 @@
 
 Hi there! This is the Digital Geographies GitHub repository! 
 
-You will find details of the Studios in the `studios` file, including the worksheets.
-
-My github.io website is in the `website` folder.
+You will find details of the Studios in the [studios](https://cwilmott.github.io/digitalgeographies/studios/) file, including the worksheets.
 
 (If you're interested, this file is written in markdown - or .md. It's really easy to use, and more details can be found [here](https://www.markdownguide.org).)
