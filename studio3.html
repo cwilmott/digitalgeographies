@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> BEST HTML PAGE EVER! </title>
+  <meta charset="UTF-8">
+  <style>
+    body {background-color: powderblue}
+    h1 {color: red; text-align: center;}
+    p {font-family: verdana; font-size: 20px; text-align: right;}
+  </style>
+</head>
+<body>
+  <h1>This is a Heading</h1>
+  <p>This is a paragraph.</p>
+  <p id="change"> Watch me change! </p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2yJgwwDcgV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <script>
+  function changeCSS() {
+    document.getElementById("change").style.color = "red";
+  }
+  </script>
+  <button type="button" onclick="changeCSS()">Click here!</button>
+</body>
+</html>
