@@ -112,7 +112,7 @@ Save it, and drag `The Universal Black Pages.htm` file into Chrome. The webpage 
 
 Now, return to your github.io pages repository.
 
-Create a new folder called /studio2/index.htm . Copy and paste the code from your Atom file into your github file. Then, in the studio2 folder, select `Upload` and upload `The Universal Black Pages_files` folder.
+Create a new file called studio2.htm . Copy and paste the code from your Atom file into your github file. Then, in the studio2 folder, select `Upload` and upload `The Universal Black Pages_files` folder.
 
 Now, test your webpage works! And remember to copy and paste it into the #studio Slack channel as a comment under your game screenshot!
 
