@@ -150,11 +150,49 @@ Click on blend data, and join your data sets with the college join link. It can 
 
 And then just play around with the software. See what you can do!
 
-### 6. Save and share.
+## 6. Save and share.
 
 For your final part, we're going to share your data.
 
-When you have a vis you're either happy with or bored with, click "Save" on the top right.
-Then click "Share". Create a new report, and at the top, you'll find a URL embed code.
+When you have a vis you're either happy with or bored with your visualisation, click "Save" on the top right.
 
-Go to Github Pages, .....
+Then click "Share". Create a new report, and at the top, you'll find a URL embed code, or you can retrieve it from the Share menu.
+
+Go to **Atom** and create a new file. Then click Save-As and call it 'studio4.html'.
+
+You now need to do the basics to build a HTML file that we learnt last week. Copy and paste the below in the file:
+
+```` html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Studio 4</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<!-- paste embed code iframe here -->
+
+</body>
+</html>
+````
+Now, return to your report and embed code. Make sure it's the size you want (but you can also change this later) and copy it.
+
+Paste it into your `studio4.html` document in the `<body>`. Check it works on Preview HTML.
+
+Finally, go to Github Pages, where your index.html page is.
+
+Click **Add File** then **Create New File**. Name it `studio4.html`, and copy and paste the code from Atom into the page.
+
+Commit the changes. And copy the file path starting with https://
+
+And to end, return to your index.html page and let's put a link in so we can access the page from the main website.
+
+Copy and paste the file path code, somewhere that you're happy for a link to be in the body:
+
+``` html
+<a href="link_to_path">Studio 4</a>
+```
+
+And then commit changes.
+
+And don't forget to post your link to the #studios Slack!
