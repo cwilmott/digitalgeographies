@@ -89,7 +89,13 @@ And, let's embed an video as well! Go to YouTube, find a video (I've chosen nyan
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2yJgwwDcgV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 > pay attention here! These tag is important for putting your future projects on your github website. You can embed pretty much anything as long as you specify the type: <embed> for general; <img> for images; <iframe> for html - see more here: https://www.w3schools.com/tags/tag_embed.asp
+ 
+Finally, add some links to your other studio pages.
 
+```html
+<a href="https://cwilmott.github.io/website/studio1.html">Studio 1</a> <!--- You need to change this bit to match your webpage --->
+```
+Try to do Studio 2 on your own!
 
 Your code will look something like this now:
 
@@ -104,6 +110,7 @@ Your code will look something like this now:
   <h1>This is a Heading</h1>
   <p>This is a paragraph.</p>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/2yJgwwDcgV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <a href="https://cwilmott.github.io/website/studio1.html">Studio 1</a><a href="https://cwilmott.github.io/website/studio2.html">Studio 2</a>
 </body>
 </html>
 ```
