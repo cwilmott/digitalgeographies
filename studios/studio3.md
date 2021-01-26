@@ -211,7 +211,7 @@ On the left, select your github.io repository (mine is cwilmott/website) (this i
 
 This will bring up the folder for your repository.
 
-Select "Add File" and then "Create New File". Call it `index.html`
+Select your `index.html` file.
 
 Navigate to your html file in Atom and copy and paste the code into the github code editor.
 
