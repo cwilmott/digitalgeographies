@@ -12,6 +12,6 @@ Once inside the hub, on the top right, choose "Upload" and select your Interoper
 
 The instructions and explanations are enclosed within the notebook. If you hit "Run" in the tool bar across the top on the Code sections, you will see stuff happen. 
 
-**For the #studios Slack: 
+**For the #studios Slack:** 
 
-**- Post a screenshot of a graph or an image!
+**- Post a screenshot of a graph or an image!**
