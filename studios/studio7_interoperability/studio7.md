@@ -1,6 +1,6 @@
 # Interoperability
 
-This is our second python studio - and runs the same as last week!
+This is our second python studio - and runs the same as two weeks ago!
 
 We will be using Jupyter Notebook on Jupyter Hub.
 
