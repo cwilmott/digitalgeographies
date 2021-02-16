@@ -29,7 +29,7 @@ I've found a few sources of data which can help us explore this topic.
 
 1. First of all, we need a **list of all the colleges in the US** so that we can make sure all our colleges are called the same thing across all of our sheets. For instance, different data sources might call Berkeley, UCB or UC Berkeley, or Cal, or University of California, Berkeley, or just Berkeley, which digital text processors read as being different places - you need human context (or a database that I can't find!) to know that they're the same! I've found this super helpful database of US Post-Secondary institutions by Kiersten Hudson: https://hifld-geoplatform.opendata.arcgis.com/datasets/colleges-and-universities?geometry=57.798%2C-16.798%2C-57.163%2C72.130
 2. We also need a **list of top salaries for US college football coaches**. USA Today provides a yearly list here: https://sports.usatoday.com/ncaa/salaries/football/coach, and assistant coaches here: https://sports.usatoday.com/ncaa/salaries/football/assistant
-3. And for some flavour, I've found this NBC database which shows ***the fees students pay for college athletics***, and what percentage of the total athletics budgets are supported by these fees: https://www.nbcnews.com/news/education/hidden-figures-college-students-may-be-paying-thousands-athletic-fees-n1145171. This one is a bit of a pain to scrape, so I've already done it and saved it as a CSV here: https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio4/NCAADiv1_Financing.csv   
+3. And for some flavour, I've found this NBC database which shows ***the fees students pay for college athletics***, and what percentage of the total athletics budgets are supported by these fees: https://www.nbcnews.com/news/education/hidden-figures-college-students-may-be-paying-thousands-athletic-fees-n1145171. This one is a bit of a pain to scrape, so I've already done it and saved it as a CSV here: https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio4_tables/NCAADiv1_Financing.csv   
 
 Create three columns in your Inputs sheet with the following headings:
 
@@ -44,7 +44,7 @@ Then, note the details and paste your links in:
 | Colleges   | Kiersten Hudson | https://hifld-geoplatform.opendata.arcgis.com/datasets/colleges-and-universities?geometry=57.798%2C-16.798%2C-57.163%2C72.130 |
 | Coaches    | USA Today       | https://sports.usatoday.com/ncaa/salaries/football/coach                                                                      |
 | Assistants | USA Today       | https://sports.usatoday.com/ncaa/salaries/football/assistant/assistant                                                                          |
-| Fees       | NBC             | https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio3/NCAADiv1_Financing.csv                               |
+| Fees       | NBC             | https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio4_tables/NCAADiv1_Financing.csv                              |
 
 
 ### 3. Import into Google Sheets
