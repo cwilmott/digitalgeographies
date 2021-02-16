@@ -84,18 +84,18 @@ The data should populate across the sheet.
 **Assistants** (IMPORTHTML)
 - Now, try the above steps on your own for the assistants salaries!
 
-**Colleges** (IMPORTXML)
-- Okay, so last and ugliest (but coolest), IMPORTXML and the colleges list.
-- Go to the colleges page - https://hifld-geoplatform.opendata.arcgis.com/datasets/colleges-and-universities?geometry=57.798%2C-16.798%2C-57.163%2C72.130.
-- We could just download the whole dataset as a spreadsheet, but it's messy. Instead, select the API Explorer tab. This allows us to Query the database and import it.
-- We don't need all these "Out Fields", so let's cull it down to the `Name`, and `Zip` data (so we can geocode if we'd like).
-
-
-> TOP TIP! In the Google Chrome Dev Tools, if you right-click on a piece of html you can select Copy > Full XPath if you need to!
-
-- Salaries
-- Fees
-- Locations
+> **Colleges** (IMPORTXML) (Optional)
+> - Okay, so last and ugliest (but coolest), IMPORTXML and the colleges list.
+> - Go to the colleges page - https://hifld-geoplatform.opendata.arcgis.com/datasets/colleges-and-universities?geometry=57.798%2C-16.798%2C-57.163%2C72.130.
+> - We could just download the whole dataset as a spreadsheet, but it's messy. Instead, select the API Explorer tab. This allows us to Query the database and import it.
+> - We don't need all these "Out Fields", so let's cull it down to the `Name`, and `Zip` data (so we can geocode if we'd like).
+>
+>
+>> TOP TIP! In the Google Chrome Dev Tools, if you right-click on a piece of html you can select Copy > Full XPath if you need to!
+>
+>- Salaries
+>- Fees
+>- Locations
 
 
 
