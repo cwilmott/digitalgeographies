@@ -13,7 +13,7 @@ These skills can be used for any kind of data, as long as you know what you're w
 
 First things first, sign into your Google Drive account using your berkeley.edu login.
 
-Go to Google Sheets and open a new blank sheet and name it **"studio5"**
+Go to Google Sheets and open a new blank sheet and name it **"studio4"**
 
 In Google Sheets (as with most spreadsheet software), each workbook is comprised of tabs called sheets. You can create new tabs by clicking the small `+` button at the bottom-left of the page, and clicking on the tab to rename it:
 
@@ -27,9 +27,8 @@ Now we're going to locate the data that we need. I've chosen a random topic that
 
 I've found a few sources of data which can help us explore this topic.
 
-1. First of all, we need a **list of all the colleges in the US** so that we can make sure all our colleges are called the same thing across all of our sheets. For instance, different data sources might call Berkeley, UCB or UC Berkeley, or Cal, or University of California, Berkeley, or just Berkeley, which digital text processors read as being different places - you need human context (or a database that I can't find!) to know that they're the same! I've found this super helpful database of US Post-Secondary institutions by Kiersten Hudson: https://hifld-geoplatform.opendata.arcgis.com/datasets/colleges-and-universities?geometry=57.798%2C-16.798%2C-57.163%2C72.130
-2. We also need a **list of top salaries for US college football coaches**. USA Today provides a yearly list here: https://sports.usatoday.com/ncaa/salaries/football/coach, and assistant coaches here: https://sports.usatoday.com/ncaa/salaries/football/assistant
-3. And for some flavour, I've found this NBC database which shows ***the fees students pay for college athletics***, and what percentage of the total athletics budgets are supported by these fees: https://www.nbcnews.com/news/education/hidden-figures-college-students-may-be-paying-thousands-athletic-fees-n1145171. This one is a bit of a pain to scrape, so I've already done it and saved it as a CSV here: https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio4_tables/NCAADiv1_Financing.csv   
+1. We also need a **list of top salaries for US college football coaches**. USA Today provides a yearly list here: https://sports.usatoday.com/ncaa/salaries/football/coach, and assistant coaches here: https://sports.usatoday.com/ncaa/salaries/football/assistant
+2. And for some flavour, I've found this NBC database which shows ***the fees students pay for college athletics***, and what percentage of the total athletics budgets are supported by these fees: https://www.nbcnews.com/news/education/hidden-figures-college-students-may-be-paying-thousands-athletic-fees-n1145171. This one is a bit of a pain to scrape, so I've already done it and saved it as a CSV here: https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio4_tables/NCAADiv1_Financing.csv   
 
 Create three columns in your Inputs sheet with the following headings:
 
@@ -40,8 +39,7 @@ Create three columns in your Inputs sheet with the following headings:
 Then, note the details and paste your links in:
 
 | Name       | Owner           | Source                                                                                                                        |
-|------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Colleges   | Kiersten Hudson | https://hifld-geoplatform.opendata.arcgis.com/datasets/colleges-and-universities?geometry=57.798%2C-16.798%2C-57.163%2C72.130 |
+|------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------| |
 | Coaches    | USA Today       | https://sports.usatoday.com/ncaa/salaries/football/coach                                                                      |
 | Assistants | USA Today       | https://sports.usatoday.com/ncaa/salaries/football/assistant/assistant                                                                          |
 | Fees       | NBC             | https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio4_tables/NCAADiv1_Financing.csv                              |
@@ -64,12 +62,12 @@ We're going to use a range of `IMPORT` functions available via Google Sheets, in
 
 **Fees** (IMPORTDATA)
 - Create a new sheet and call it "fees"
-- Return to the Github file (https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio3/NCAADiv1_Financing.csv) and select `raw`. This will give you a raw page of comma-separated values - copy the `raw` address (https://raw.githubusercontent.com/cwilmott/digitalgeographies/main/studios/studio3/NCAADiv1_Financing.csv).
+- Return to the Github file (https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio4_tables/NCAADiv1_Financing.csv) and select `raw`. This will give you a raw page of comma-separated values - copy the `raw` address (https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio4_tables/NCAADiv1_Financing.csv).
 - Now, return to your "fees" Google Sheets.
 - Click the top right corner to select all cells.
 - In the formula bar, write the following function with the formula: `=IMPORTDATA("raw_data_link")` so that it looks like this:
 ```
-=IMPORTDATA("https://raw.githubusercontent.com/cwilmott/digitalgeographies/main/studios/studio3/NCAADiv1_Financing.csv")
+=IMPORTDATA("https://github.com/cwilmott/digitalgeographies/blob/main/studios/studio4_tables/NCAADiv1_Financing.csv")
 ```
 The data should populate across the sheet.
 
@@ -83,21 +81,6 @@ The data should populate across the sheet.
 
 **Assistants** (IMPORTHTML)
 - Now, try the above steps on your own for the assistants salaries!
-
-> **Colleges** (IMPORTXML) (Optional)
-> - Okay, so last and ugliest (but coolest), IMPORTXML and the colleges list.
-> - Go to the colleges page - https://hifld-geoplatform.opendata.arcgis.com/datasets/colleges-and-universities?geometry=57.798%2C-16.798%2C-57.163%2C72.130.
-> - We could just download the whole dataset as a spreadsheet, but it's messy. Instead, select the API Explorer tab. This allows us to Query the database and import it.
-> - We don't need all these "Out Fields", so let's cull it down to the `Name`, and `Zip` data (so we can geocode if we'd like).
->
->
->> TOP TIP! In the Google Chrome Dev Tools, if you right-click on a piece of html you can select Copy > Full XPath if you need to!
->
->- Salaries
->- Fees
->- Locations
-
-
 
 ### 4. Clean Data
 
@@ -130,7 +113,7 @@ Sign in to your Berkeley Google Drive and then to Google Data Studio (in Chrome)
 
 ### Link Data
 
-Select `Create` and choose **Data Source**. Then select "Google Sheets". Choose **studio5**, and then one of the cleaned sheets. I chose Fees. *You can only choose one sheet per data source*.
+Select `Create` and choose **Data Source**. Then select "Google Sheets". Choose **studio4**, and then one of the cleaned sheets. I chose Fees. *You can only choose one sheet per data source*.
 
 Then click `Connect`.
 
