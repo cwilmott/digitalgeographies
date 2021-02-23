@@ -1,16 +1,22 @@
 # Interoperability
 
-This is our second python studio - and runs the same as two weeks ago!
+This is our second python studio - and runs a little differently to last time.
 
-We will be using Jupyter Notebook on Jupyter Hub.
+We will still be using Jupyter Notebook, but this time we're accessing it from our own desktop, rather than Jupyter Hub! 
 
-To access this studio, download the Interoperability_Studio.ipynb file. This is a specific file extension (.ipynb) for Jupyter Notebooks. Python Scripts usually have the extension .py
+** Before Class **
 
-Then, go to https://datahub.berkeley.edu/ and sign in using your UC Berkeley credentials.
+1. *Install Anaconda* using their GUI or graphical user interface here: https://www.anaconda.com/products/ . Choose `64 bit Graphical Installer` for your operating system and follow the prompts. If you get stuck, further information is here: https://docs.anaconda.com/anaconda/install/
 
-Once inside the hub, on the top right, choose "Upload" and select your Interoperability_Studio.ipynb file. Once it's uploaded, double click and you'll see the notebook.
+2. *Download Folder* To access this studio, download the `interoperability_studio` folder. In it is a notebook file, two xml files, a .py file and a sound_sample wav file. Move the folder onto your desktop or into your documents or somewhere you can find it!
 
-The instructions and explanations are enclosed within the notebook. If you hit "Run" in the tool bar across the top on the Code sections, you will see stuff happen. 
+** In Class **
+
+Open Anaconda Navigator. Then select the Jupyter Notebooks application. 
+
+This will open up a browser window. Find your `Interoperability_Studio.ipynb` file and open it in the browser. 
+
+Then refer to the notebook :-)
 
 **For the #studios Slack:** 
 
