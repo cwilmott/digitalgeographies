@@ -41,6 +41,7 @@ Some common licenses are:
 
 GNU FDL - https://www.gnu.org/licenses/fdl-1.3.html
 Creative Commons - https://creativecommons.org/
+TK - https://localcontexts.org/licenses/traditional-knowledge-licenses/
 
 Use the CC search engine to look for an image. Choose one - pay attention to the CC rules. Right click and Copy Image Address.
 
